@@ -17,17 +17,17 @@
     "visual"
   ],
   "author": {
-    "name": "Zeb Zhao",
-    "url": "https://github.com/zebzhao/"
+    "name": "Sukh Arora",
+    "url": "https://github.com/sarora2073/"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zebzhao/Angular-QueryBuilder"
+    "url": "https://github.com/sarora2073/Angular-QueryBuilder"
   },
   "bugs": {
-    "url": "https://github.com/zebzhao/Angular-QueryBuilder/issues"
+    "url": "https://github.com/sarora2073/Angular-QueryBuilder/issues"
   },
-  "homepage": "https://github.com/zebzhao/Angular-QueryBuilder#readme",
+  "homepage": "https://github.com/sarora2073/Angular-QueryBuilder#readme",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
