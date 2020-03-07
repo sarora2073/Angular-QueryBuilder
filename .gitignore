@@ -21,7 +21,7 @@ Desktop.ini
 
 # Temporary files
 coverage/
-dist
+#dist
 docs
 tmp
 .ignore

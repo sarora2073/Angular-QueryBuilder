@@ -1,0 +1,23 @@
+{
+  "name": "angular2-query-builder",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": ">=8.0.0",
+    "@angular/core": ">=8.0.0",
+    "@angular/forms": ">=8.0.0",
+    "rxjs": ">=6.0.0",
+    "tslib": ">=1.8.0"
+  },
+  "main": "bundles/angular2-query-builder.umd.js",
+  "module": "fesm5/angular2-query-builder.js",
+  "es2015": "fesm2015/angular2-query-builder.js",
+  "esm5": "esm5/angular2-query-builder.js",
+  "esm2015": "esm2015/angular2-query-builder.js",
+  "fesm5": "fesm5/angular2-query-builder.js",
+  "fesm2015": "fesm2015/angular2-query-builder.js",
+  "typings": "angular2-query-builder.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy. This is not allowed.\\nPlease delete and rebuild the package, without compiling with Ivy, before attempting to publish.\\n')\" && exit 1"
+  }
+}
