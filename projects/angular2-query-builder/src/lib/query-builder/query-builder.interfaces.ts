@@ -99,8 +99,9 @@ export interface QueryBuilderConfig {
   removeRule?: (rule: Rule, parent: RuleSet) => void;
   coerceValueForOperator?: (operator: string, value: any, rule: Rule) => any;
   calculateFieldChangeValue?: (currentField: Field,
-                               nextField: Field,
-                               currentValue: any) => any;
+    nextField: Field,
+    currentValue: any) => any;
+  systemField?: boolean; // customization
 }
 
 export interface SwitchGroupContext {
