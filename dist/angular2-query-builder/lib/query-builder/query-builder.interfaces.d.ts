@@ -28,6 +28,7 @@ export interface Field {
     defaultOperator?: any;
     entity?: string;
     validator?: (rule: Rule, parent: RuleSet) => any | null;
+    systemField?: boolean;
 }
 export interface LocalRuleMeta {
     ruleset: boolean;
@@ -88,7 +89,6 @@ export interface QueryBuilderConfig {
     removeRule?: (rule: Rule, parent: RuleSet) => void;
     coerceValueForOperator?: (operator: string, value: any, rule: Rule) => any;
     calculateFieldChangeValue?: (currentField: Field, nextField: Field, currentValue: any) => any;
-    systemField?: boolean;
 }
 export interface SwitchGroupContext {
     onChange: (conditionValue: string) => void;
